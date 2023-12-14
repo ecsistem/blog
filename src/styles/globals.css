@@ -1,0 +1,194 @@
+:root {
+  --color-primary: #986dff;
+
+  --color-dark: #111111;
+  --color-dark-200: #151515;
+  --color-dark-400: #1f1f1f;
+
+  --color-white: #ffffff;
+  --color-white-100: #dedede;
+  --color-white-200: #9ca3af;
+
+  --gap-8: 8px;
+  --gap-16: 16px;
+  --gap-24: 24px;
+  --gap-32: 32px;
+  --gap-40: 40px;
+  --gap-48: 48px;
+  --gap-56: 56px;
+  --gap-64: 64px;
+  --gap-72: 72px;
+  --gap-80: 80px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  color: var(--color-white-200);
+}
+
+li::marker {
+  color: var(--color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  font-family: "Archivo", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+strong {
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+code {
+  font-size: 2rem;
+  line-height: 170%;
+}
+
+p {
+  margin: 0;
+  color: var(--color-white-200);
+  font-size: 2rem;
+  line-height: 170%;
+  font-weight: 300;
+}
+
+.postMDX h1 {
+  text-align: center;
+}
+
+.postMDX ul,
+.postMDX li {
+  list-style: inside;
+}
+
+.postMDX h1 {
+  margin-bottom: 48px;
+}
+
+.postMDX h2 {
+  margin: 32px 0px;
+}
+
+.postMDX h3 {
+  margin: 32px 0px;
+}
+
+.postMDX p {
+  margin: 32px 0px;
+}
+
+.postMDX ul {
+  margin: 24px 0px;
+}
+
+.postMDX li {
+  line-height: 170%;
+}
+
+.postMDX img {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  font-family: "Archivo", sans-serif;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+.containerMDX {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+.containerPadding {
+  padding: 80px 24px;
+}
+
+.containerFlexBox {
+  display: flex;
+  
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer a {
+  color: var(--color-primary);
+}
+
+@media screen and (max-width: 688px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+}

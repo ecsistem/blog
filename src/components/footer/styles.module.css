@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  height: auto;
+  padding: var(--gap-24) 0px;
+  background-color: var(--color-dark-200);
+}
+
+.footer section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-8);
+}
+
+.footer p {
+  font-size: 1.8rem;
+  line-height: 160%;
+}
+
+.footer a {
+  font-weight: 500;
+  padding: 0px 8px;
+}
