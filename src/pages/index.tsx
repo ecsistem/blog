@@ -10,7 +10,7 @@ import Head from "../infra/head";
 const Home = ({ posts }: { posts: PostMeta[] }) => {
   return (
     <React.Fragment>
-      <Head title="Blog // Edfson Costa" />
+      <Head title="Blog // Edson Costa" />
       <div className="containerFlexBox">
         <Menu />
         <Profile />
