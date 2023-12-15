@@ -6,15 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "commit": "cz"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4",
     "glob": "^7.2.0",
     "gray-matter": "^4.0.3",
+    "next": "14.0.4",
     "next-mdx-remote": "^4.2.0",
+    "react": "^18",
+    "react-dom": "^18",
     "react-is": "^18.2.0",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-highlight": "^5.0.2",
@@ -22,17 +23,23 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@babel/core": "^7.23.2",
+    "@types/glob": "^7.2.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@types/glob": "^7.2.0",
     "@types/styled-components": "^5.1.26",
     "@vercel/analytics": "^0.1.8",
-    "@babel/core": "^7.23.2",
-    "semver": ">=7.5.2",
-    "word-wrap": ">=1.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "semver": ">=7.5.2",
+    "typescript": "^5",
+    "word-wrap": ">=1.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

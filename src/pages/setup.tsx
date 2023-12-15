@@ -23,116 +23,68 @@ const Setup = () => {
             <div>
               <h3>Equipamentos</h3>
               <ul>
-                <li>
+              <li>
                   <a
-                    href="https://www.kabum.com.br/produto/113859/headset-gamer-husky-gaming-polar-preto-p2-drivers-50mm-rainbow-hgmd002"
+                    href="https://produto.mercadolivre.com.br/MLB-1553276440-notebook-acer-aspire-3-a315-42g-r7nb-ryzen-5-8gb-1tb-128gb-_JM"
                     target="_blank"
-                     rel="noreferrer"
+                   rel="noreferrer"
                   >
-                    Headset Gamer - Husky Gaming Polar
+                 Notebook  - Acer Aspire 3, A315-42g-r7nb, Ryzen 5, 12gb 1tb(HD)+128gb(SSD)
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.pichau.com.br/cadeira-gamer-pichau-tippler-vermelha-by-8105-vermelho"
+                    href="https://www.amazon.com.br/Headphone-HV-H2232d-Ilumina%C3%A7%C3%A3o-Microfone-Conector/dp/B07N78G8GB"
                     target="_blank"
                      rel="noreferrer"
                   >
-                    Cadeira Gamer - Pichau Tippler Vermelha
+                    Headset -Havit HV-H2232d
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.pichau.com.br/gabinete-gamer-pichau-magpie-iii-led-azul-lateral-frontal-vidro-pgma-03-blue?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV4iSD_5SpqtY_jg0dJ2QR4azO44IIChfjDq-6ysQUDJS69ryKQBss4aAmdPEALw_wcB"
+                    href="https://www.magazineluiza.com.br/cadeira-gamer-xt-racer-reclinavel-preta-e-branca-armor-series-xta150/p/222068400/mo/moec/"
                     target="_blank"
                      rel="noreferrer"
                   >
-                    Gabinete Gamer - Pichau Magpie III
+                    Cadeira Gamer - XT Racer - Armor Series XTA150
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.kabum.com.br/produto/93157/teclado-mecanico-gamer-redragon-kumara-rgb-switch-outemu-blue-pt-k552rgb-1-pt-blue-?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV5spiI04VatMISQ7HQd2czGxUMH2T1EsJPk4-_DwnHX0V_ziHJbROMaArp3EALw_wcB"
+                    href="https://www.amazon.com.br/Monitor-LCD-AOC-E1670SWU-15-6/dp/B074JL8NL4/ref=asc_df_B074JL8NL4/?tag=googleshopp00-20&linkCode=df0&hvadid=379787187059&hvpos=&hvnetw=g&hvrand=14063947356305786738&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101658&hvtargid=pla-810066207482&psc=1&mcid=d9110985be30343fbc1e6a533245145d"
+                    target="_blank"
+                     rel="noreferrer"
+                  >
+                  Monitor LED AOC 15,6” Widescreen VESA - E1670SWU-WM
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.amazon.com.br/Teclado-Mec%C3%A2nico-T-dagger-Bora-Switch/dp/B0833F1KQ3/ref=asc_df_B0833F1KQ3/?tag=googleshopp00-20&linkCode=df0&hvadid=379708004298&hvpos=&hvnetw=g&hvrand=1347635645544012544&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101658&hvtargid=pla-934156114290&psc=1&mcid=d3f2a9c91bc038a8a29516aa34af02a5"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Teclado Mecânico Gamer - Redragon Kumara, RGB, Switch Outemu
+                    Teclado Mecânico Gamer - T-DAGGER T-tgk315, RGB, Switch Outemu
                     Blue
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.kabum.com.br/produto/94555/mouse-gamer-redragon-cobra-chroma-rgb-12400dpi-7-botoes-preto-m711-v2?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV7BnpMSpOnq6T-WvrwTwSPuCLFAAY8-24zUy_tWNdTzfOAP1J_ghfoaAr4FEALw_wcB"
+                    href="https://www.magazineluiza.com.br/mouse-gamer-multilaser-2400dpi-6-botoes-led-laranja-mo270/p/kdhd696k14/in/mger/?seller_id=taemcontacomerciovarejistaltda&srsltid=AfmBOopqdRLhXTepOy2I-edhKJbS0BxB_zCxBbgot5sdPl2PThq5OP5A_x0"
                     target="_blank"
                      rel="noreferrer"
                   >
-                    Mouse Gamer - Redragon Cobra, Chroma RGB, 12400DPI
+                    Mouse Gamer -  Multilaser 2400dpi, 6 Botões, Led, Mo270
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.kabum.com.br/produto/162665/memoria-gamer-husky-gaming-avalanche-16gb-3200mhz-ddr4-cl19-hgmf008?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV7VivD-ZbdNf4o9Xb2qbc9gSvWzSOKtH2PK6W3tLm_rtUyIjSDCsDwaAjZVEALw_wcB"
+                    href="https://www.magazineluiza.com.br/mousepad-xtrike-me-770x295x3mm-mp-204/p/fbk04f8c0b/in/mspd/?seller_id=hunogamesinformatica&srsltid=AfmBOopkmintvHflWNLQf6mcz1TmfGk0K-Ua-lAUz-T65TNBaxUkevdRo3U"
                     target="_blank"
                      rel="noreferrer"
                   >
-                    Memória Gamer - Husky Gaming, Avalanche,16GB, 3200Mhz, DDR4
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.pichau.com.br/processador-intel-core-i5-10400-6-core-12-threads-2-9ghz-4-3ghz-turbo-cache-12mb-lga1200-bx8070110400?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV6DkzqIEJpBP-EKxm0RL9LShN1HrjudEfOb_l4Lr_3okzEzZlevWGoaAnmoEALw_wcB"
-                    target="_blank"
-                     rel="noreferrer"
-                  >
-                    Processador - Intel Core i5-10400
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.kabum.com.br/produto/151567/placa-mae-asus-tuf-gaming-b560m-plus-wifi-intel-lga1200-microatx-ddr4-90mb1770-m0eay0?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV50WtZ0Ai_CcORP87i_e9sfxSjalTIUm9Hst81i-caOe_9knqHJ9CcaAjWKEALw_wcB"
-                    target="_blank"
-                     rel="noreferrer"
-                  >
-                    Placa Mãe Asus TUF GAMING B560M-PLUS, Intel LGA1200,
-                    microATX, DDR4
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.kabum.com.br/produto/115571/placa-de-video-gigabyte-nvidia-geforce-rtx-2060-d6-6g-gddr6-gv-n2060d6-6gd?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV4RrCl6MUTUOeHSSL0zJbRr5EOd1bprL_hztLb8IGNTl4H_4AH1TKEaAmiFEALw_wcB"
-                    target="_blank"
-                     rel="noreferrer"
-                  >
-                    Placa de Vídeo - Gigabyte NVIDIA GeForce RTX 2060 D6 6G,
-                    GDDR6
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.kabum.com.br/produto/103281/fonte-xpg-core-reactor-750w-80-plus-gold-modular?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV6y7rDnlZ6XRrvlG7gRs66y4XdzCGjGjC9tBZs9wlOL6dASfcv0XE0aAnd8EALw_wcB"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Fonte - XPG Core Reactor, 750W, 80 Plus Gold Modular
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.mercadolivre.com.br/mouse-pad-gamer-exbom-mp-led3080-300mm-x-800mm-x-4mm-preto/p/MLB15533886?pdp_filters=category:MLB1716#searchVariation=MLB15533886&position=13&search_layout=grid&type=product&tracking_id=2e1b5878-e64e-4239-a4d7-becacd1db688"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Mouse Pad Gamer - Exbom MP-LED3080 300mm x 800mm x 4mm preto
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.kabum.com.br/produto/99866/monitor-lg-23-8-ips-full-hd-hdmi-vesa-ajuste-de-angulo-24mk430h?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV5TJ_LPi4SoXqMaAhDLc6vyQYp-CgYQwWbAhEPMXk7_CBywk5v1NAYaAq4IEALw_wcB"
-                    target="_blank"
-                   rel="noreferrer"
-                  >
-                    Monitor - LG 23.8 IPS, Full HD, HDMI, VESA, Ajuste de
-                    Ângulo - 24MK430H
+                    Mousepad - xtrike me 770x295x3mm mp-204
                   </a>
                 </li>
               </ul>
@@ -178,11 +130,11 @@ const Setup = () => {
               <ul>
                 <li>
                   <a
-                    href="https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni"
+                    href="https://marketplace.visualstudio.com/items?itemName=ryanolsonx.solarized"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Tema - Omni Theme
+                    Tema - Solarized Dark
                   </a>
                 </li>
                 <li>
