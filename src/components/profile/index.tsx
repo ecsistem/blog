@@ -7,16 +7,13 @@ const Profile = () => {
       <footer className={styles.profile}>
         <div className="containerMDX">
           <section>
-            <h2>Ola!, sou Edson Costa 👋🏼</h2>
-
+            <h2>Bem-vindo ao universo tecnológico!, sou Edson Costa 👋🏼</h2>
             <span>
               <h3>Capanema-PA, Brasil</h3>
             </span>
-
             <p>
-
-              Me chamo Edson Costa. Desde os 11 anos, desenvolvo minha paixão pela tecnologia, embarcando em uma jornada de programação freelancer. Atualmente, sou estudante de Sistemas de Informação na Universidade Federal de Pará, almejando tornar-me um arquiteto em nuvem. Possuo habilidades intermediárias em inglês, buscando constantemente aprimorá-las. Minha dedicação à aprendizagem contínua visa expandir meu conjunto de habilidades e acompanhar as tendências do setor.
-            </p>
+  Estudante de Sistemas de Informação e entusiasta da tecnologia, estou aqui para compartilhar meu conhecimentos, a jornada em busca da arquitetura em nuvem e muito mais. Seja bem-vindo ao meu blog, onde a tecnologia encontra a paixão pela aprendizagem constante!
+</p>
           </section>
         </div>
       </footer>

@@ -2,9 +2,9 @@ import Footer from "@/components/footer";
 import Image from "next/image";
 import Link from "next/link";
 import Menu from "../components/menu";
+import { personalLinkItems, socialLinkItems } from '../data/linkertree';
 import Head from "../infra/head";
 import styles from "../styles/linkertree.module.css";
-import { personalLinkItems, socialLinkItems } from './../data/linkertree';
 
 interface LinkItemProps {
   item: {

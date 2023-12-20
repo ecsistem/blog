@@ -1,3 +1,4 @@
+import { formatarDataPorExtenso } from "@/util/formatDate";
 import Link from "next/link";
 import type { PostMeta } from "../../api";
 import styles from "./styles.module.css";
@@ -10,6 +11,7 @@ const Articles = ({ posts }: { posts: PostMeta[] }) => {
           <li key={post.slug}>
             <h2>{post.title}</h2>
             <p>{post.excerpt}</p>
+            <p>{formatarDataPorExtenso(post.date)}</p>
             <span>
               {post.tags.map((tag) => (
                 <p key={tag}>{tag}</p>

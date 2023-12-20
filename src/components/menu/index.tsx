@@ -18,7 +18,7 @@ const Menu = () => {
                 <Link href="/sobre">Sobre</Link>
               </li>
               <li>
-                <Link href="/links">Social</Link>
+                <Link href="/links">Links</Link>
               </li>
               <li>
                 <Link href="/setup">Setup</Link>

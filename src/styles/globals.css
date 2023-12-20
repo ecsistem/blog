@@ -108,7 +108,7 @@ p {
 
 .postMDX ul,
 .postMDX li {
-  list-style: inside;
+  list-style: auto;
 }
 
 .postMDX h1 {

@@ -10,8 +10,11 @@
     "commit": "cz"
   },
   "dependencies": {
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
     "glob": "^7.2.0",
     "gray-matter": "^4.0.3",
+    "luxon": "^3.4.4",
     "next": "14.0.4",
     "next-mdx-remote": "^4.2.0",
     "react": "^18",
