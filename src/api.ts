@@ -59,7 +59,7 @@ export const getPostFromSlug = (slug: string): Post => {
       },
     };
   } catch (error) {
-    console.error(`Error reading or parsing file for slug '${slug}': ${error.message}`);
+    console.error(`Error reading or parsing file for slug '${slug}'`);
     return {
       content: "", // or handle error content as needed
       meta: {

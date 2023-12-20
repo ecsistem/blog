@@ -2,11 +2,11 @@ import { format, isDate } from 'date-fns';
 import { utcToZonedTime } from 'date-fns-tz';
 import { pt } from 'date-fns/locale';
 
-function isValidDate(date) {
+function isValidDate(date: string | number | Date) {
   return isDate(date) || (typeof date === 'string' && !isNaN(new Date(date).getTime()));
 }
 
-export function formatarDataPorExtenso(data, fusoHorario = 'America/Sao_Paulo') {
+export function formatarDataPorExtenso(data: string | number | Date, fusoHorario = 'America/Sao_Paulo') {
   try {
     if (!isValidDate(data)) {
       throw new Error('Data inválida. Forneça uma data válida ou um formato de data reconhecido.');
@@ -18,7 +18,7 @@ export function formatarDataPorExtenso(data, fusoHorario = 'America/Sao_Paulo') 
 
     return dataFormatada;
   } catch (error) {
-    console.error(`Erro ao formatar a data: ${error.message}`);
+    console.error(`Erro ao formatar a data`);
     return 'Formato de data inválido';
   }
 }
