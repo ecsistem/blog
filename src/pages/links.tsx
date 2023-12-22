@@ -18,7 +18,7 @@ interface LinkItemProps {
 const LinkItem: React.FC<LinkItemProps> = ({ item }) => (
   <Link href={item.href} passHref className={styles.link} style={{ background: `linear-gradient(90deg, ${item.gradientColors[0]} 0%, ${item.gradientColors[1]} 100%)` }}>
       {/* You can replace the following image with your specific icon */}
-      <img src={`/icons/${item.icon}`} alt={`ícone ${item.label}`} width="28px" height="28px" />
+      <Image src={`/icons/${item.icon}`} alt={`ícone ${item.label}`} width={28} height={28} />
       <h2>{item.label}</h2>
   </Link>
 );

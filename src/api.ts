@@ -16,13 +16,13 @@ export const getAllPosts = (): Post[] => {
   const posts = getSlugs().map((slug) => getPostFromSlug(slug));
 
   // Log for debugging dates before sorting
-  console.log("Dates before sorting:", posts.map((post) => post.meta.date));
+  // console.log("Dates before sorting:", posts.map((post) => post.meta.date));
 
   // Sort posts by date in descending order (from most recent to oldest)
   posts.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
 
   // Log for debugging dates after sorting
-  console.log("Dates after sorting:", posts.map((post) => post.meta.date));
+  // console.log("Dates after sorting:", posts.map((post) => post.meta.date));
 
   return posts;
 };

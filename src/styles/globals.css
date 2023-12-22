@@ -145,6 +145,17 @@ body {
   color: var(--color-white);
   font-family: "Archivo", sans-serif;
   min-height: 100vh;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--color-primary);
+}
+
+body::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary); /* Cor do polegar da barra de rolagem */
+  border-radius: 10px; /* Borda redonda para o polegar da barra de rolagem */
 }
 
 html {

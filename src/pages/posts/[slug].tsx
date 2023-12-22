@@ -1,16 +1,17 @@
-import type { GetStaticProps, GetStaticPaths } from "next";
-import Image from "next/image";
+import { BackButton } from "@/components/backButton";
+import "highlight.js/styles/atom-one-dark.css";
+import type { GetStaticPaths, GetStaticProps } from "next";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
-import rehypeSlug from "rehype-slug";
+import Image from "next/image";
+import React from "react";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeHighlight from "rehype-highlight";
-import { getPostFromSlug, getSlugs, PostMeta } from "../../api";
-import "highlight.js/styles/atom-one-dark.css";
-import React from "react";
-import Head from "../../infra/head";
-import Menu from "../../components/menu";
+import rehypeSlug from "rehype-slug";
+import { PostMeta, getPostFromSlug, getSlugs } from "../../api";
 import Footer from "../../components/footer";
+import Menu from "../../components/menu";
+import Head from "../../infra/head";
 
 interface MDXPost {
   source: MDXRemoteSerializeResult<Record<string, unknown>>;
@@ -24,6 +25,7 @@ const PostPage = ({ post }: { post: MDXPost }) => {
       <React.Fragment>
         <Menu />
         <div className="containerMDX containerPadding postMDX">
+        <BackButton href="/">Voltar</BackButton>
           <MDXRemote {...post.source} components={{ Image }} />
         </div>
         <Footer />
