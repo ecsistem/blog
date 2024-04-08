@@ -25,4 +25,4 @@ jobs:
           username: ${{ secrets.CPANEL_USERNAME }}
           password: ${{ secrets.CPANEL_PASSWORD }}
           local-dir: ./ # ou o diretório onde seu build está
-          server-dir: public_html/ # ou o diretório no cPanel onde deseja hospedar o aplicativo
+          server-dir: my_blog/ # ou o diretório no cPanel onde deseja hospedar o aplicativo
