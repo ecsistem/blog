@@ -24,5 +24,5 @@ jobs:
           server: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USERNAME }}
           password: ${{ secrets.CPANEL_PASSWORD }}
-          local-dir: .next # ou o diretório onde seu build está
+          local-dir: /.next # ou o diretório onde seu build está
           server-dir: public_html # ou o diretório no cPanel onde deseja hospedar o aplicativo
