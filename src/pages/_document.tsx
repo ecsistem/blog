@@ -13,16 +13,20 @@ const Document = () => {
           rel="stylesheet"
         />
         <link rel="icon" type="image/png" href="/logo-page.svg"></link>
-        <script defer src="http://home.edsoncosta.online:3000/script.js" data-website-id="265f5cfb-1e0e-4746-9bf5-1df0f82c304d"></script>
-      </Head>
-      <body>
-        <Main />
-        <NextScript />
+         <Script
+          strategy="lazyOnload"
+          src="http://home.edsoncosta.online:12345/tracker.js"
+          data-website-id="cm7tm9uxd0001fiv0r3o6r8br"
+        />
         <Script
           strategy="lazyOnload"
           src="http://home.edsoncosta.online:3000/script.js"
           data-website-id="265f5cfb-1e0e-4746-9bf5-1df0f82c304d"
         />
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
       </body>
     </Html>
   );
