@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 const Document = () => {
   return (
@@ -17,6 +18,11 @@ const Document = () => {
       <body>
         <Main />
         <NextScript />
+        <Script
+          strategy="lazyOnload"
+          src="http://home.edsoncosta.online:3000/script.js"
+          data-website-id="265f5cfb-1e0e-4746-9bf5-1df0f82c304d"
+        />
       </body>
     </Html>
   );
