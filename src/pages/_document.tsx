@@ -12,6 +12,7 @@ const Document = () => {
           rel="stylesheet"
         />
         <link rel="icon" type="image/png" href="/logo-page.svg"></link>
+        <script defer src="http://home.edsoncosta.online:3000/script.js" data-website-id="265f5cfb-1e0e-4746-9bf5-1df0f82c304d"></script>
       </Head>
       <body>
         <Main />
